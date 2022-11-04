@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+    color: white !important;
+}
+
+#navbarSupportedContent a{
+    font-size: 20px;
+    color: darkcyan;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+
+#navbarSupportedContent button{
+    background: white;
+    width: 5rem;
+    border-radius: 10px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Home */
+#home{
+    background:url(p2.img.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 100px;
+    color:black;
+    letter-spacing: 3px;
+
+}
+#home p{
+    font-size: 25px;
+    color: black;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: black !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+/* About */
+#about{
+    background-image: url(p3.img.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#about h1{
+    font-size: 50px;
+    color: darkcyan;
+    letter-spacing: 2px;
+
+}
+#about p{
+    width: 80%;
+    font-size: 20px;
+    color: white;
+
+}
+
+/*Services */
+
+#services{
+    background: black;
+}
+
+#services h1{
+    font-size: 50px;
+    color: darkcyan;
+    letter-spacing: 2px;
+}
+#services img{
+    width: 350px;
+    height: 350px;
+}
+.card{
+    width: 400px;
+    height: 450px;
+    background: black !important;
+    border: none !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color: darkcyan;
+}
+
+/* Contact */
+#contact{
+    background: url(p4.img.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h1{
+    font-size: 50px;
+    color: darkcyan;
+    letter-spacing: 2px;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
